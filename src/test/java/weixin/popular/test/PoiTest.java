@@ -17,7 +17,7 @@ public class PoiTest extends TokenTest {
 	
 	/**
 	 * 创建门店
-	 */
+	 *//*
 	@Test
 	public void addpoi() {
 		Poi poi = new Poi();
@@ -49,27 +49,27 @@ public class PoiTest extends TokenTest {
 		System.out.print(result.getErrmsg());
 	}
 	
-	/**
+	*//**
 	 * 查询门店列表
-	 */
+	 *//*
 	@Test
 	public void getpoilist() {
 		PoiListResult result = PoiAPI.getPoiList(accessToken, 0, 10);
 		System.out.print(result.getErrmsg());
 	}
 	
-	/**
+	*//**
 	 * 查询门店信息
-	 */
+	 *//*
 	@Test
 	public void getpoi() {
 		PoiResult result = PoiAPI.getPoiByPoiId(accessToken, "460999770");
 		System.out.print(result.getErrmsg());
 	}
 	
-	/**
+	*//**
 	 * 修改门店服务信息
-	 */
+	 *//*
 	@Test
 	public void updatepoi() {
 		Poi poi = new Poi();
@@ -91,21 +91,21 @@ public class PoiTest extends TokenTest {
 		System.out.print(result.getErrmsg());
 	}
 	
-	/***
+	*//***
 	 * 删除门店
-	 */
+	 *//*
 	@Test
 	public void delpoi() {
 		BaseResult result = PoiAPI.delPoiByPoiId(accessToken, "460999770");
 		System.out.print(result.getErrmsg());
 	}
 	
-	/**
+	*//**
 	 * 获取门店类目列表
-	 */
+	 *//*
 	@Test
 	public void getwxcategory() {
 		CategoryListResult result = PoiAPI.getWxCategory(accessToken);
 		System.out.print(result.getCategoryList().length);
-	}
+	}*/
 }

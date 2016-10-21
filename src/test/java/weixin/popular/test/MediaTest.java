@@ -16,7 +16,7 @@ public class MediaTest extends TokenTest {
 
 	/**
 	 * 上传图文消息内的图片获取URL
-	 */
+	 *//*
 	@Test
 	public void mediaUploadimg() {
 		
@@ -25,5 +25,5 @@ public class MediaTest extends TokenTest {
 		System.out.println(result.getErrmsg());
 		System.out.println(result.getUrl());
 	}
-
+*/
 }

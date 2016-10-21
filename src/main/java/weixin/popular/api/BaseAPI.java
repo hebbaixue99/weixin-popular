@@ -19,7 +19,7 @@ public abstract class BaseAPI {
 	protected static final String OPEN_URI = "http://192.168.16.83:8888/weixin";
 	 */
 	protected static Header jsonHeader = new BasicHeader(HttpHeaders.CONTENT_TYPE,ContentType.APPLICATION_JSON.toString());
-	protected static Header xmlHeader = new BasicHeader(HttpHeaders.CONTENT_TYPE,ContentType.APPLICATION_XML.toString());
+	protected static Header xmlHeader = new BasicHeader(HttpHeaders.CONTENT_TYPE,ContentType.APPLICATION_XML.toString().replace("ISO-8859-1", "UTF-8"));
 	
 	protected static final String PARAM_ACCESS_TOKEN = "access_token";
 	protected static final String PARAM_AUTHORIZER_ACCESS_TOKEN = "authorizer_access_token";
