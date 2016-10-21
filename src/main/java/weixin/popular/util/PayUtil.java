@@ -25,7 +25,7 @@ public class PayUtil {
 	 */
 	public static String generatePayJsRequestJson(PayPackage payPackage,
 				String appId,
-				String paternerKey,
+				String paternerKey, 
 				String paySignkey){
 		Map<String, String> mapP = MapUtil.objectToMap(payPackage);
 		String package_ = SignatureUtil.generatePackage(mapP, paternerKey);
